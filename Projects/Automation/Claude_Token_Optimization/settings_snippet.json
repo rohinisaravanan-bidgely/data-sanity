@@ -1,0 +1,32 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/path/to/anaconda3/bin/python3 /path/to/token_counter/token_tracker.py",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/path/to/anaconda3/bin/python3 /path/to/token_counter/token_stop.py"
+          }
+        ]
+      }
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "/path/to/anaconda3/bin/python3 /path/to/token_counter/token_status.py",
+    "refreshInterval": 10
+  }
+}
