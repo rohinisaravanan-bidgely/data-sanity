@@ -108,6 +108,4 @@ Press `Cmd+P`, type `TOKEN_KPI.txt`, open it in a split pane. It updates automat
 | claude-haiku-4-5 | $0.25/1M | $1.25/1M | $0.03/1M | $0.30/1M |
 | claude-opus-4-7 | $15/1M | $75/1M | $1.50/1M | $18.75/1M |
 
-## License
 
-MIT
